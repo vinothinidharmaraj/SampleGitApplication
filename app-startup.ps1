@@ -23,7 +23,7 @@
 # SOFTWARE.
 
 # Download app
-Invoke-WebRequest https://livecacheproxyblob.blob.core.windows.net/livecacheproxycontainer/app.zip -OutFile c:\temp\app.zip
+Invoke-WebRequest https://github.com/vinothinidharmaraj/SampleGitApplication/blob/master/app.zip -OutFile c:\temp\app.zip
 Expand-Archive C:\temp\app.zip c:\app -Force
 
 # Reset IIS

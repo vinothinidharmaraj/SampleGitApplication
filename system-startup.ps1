@@ -77,7 +77,7 @@ if (!([System.IO.File]::Exists($dotnetExePath)))
 }
 
 # Install the app for the first time
-Invoke-WebRequest https://livecacheproxyblob.blob.core.windows.net/livecacheproxycontainer/app-startup.ps1 -OutFile c:\temp\app-startup.ps1
+Invoke-WebRequest https://github.com/vinothinidharmaraj/SampleGitApplication/blob/master/app-startup.ps1 -OutFile c:\temp\app-startup.ps1
 Invoke-Expression "powershell c:\temp\app-startup.ps1"
 
 # Install IIS
